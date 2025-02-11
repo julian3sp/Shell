@@ -1,0 +1,82 @@
+Script started on 2024-09-02 19:40:13+00:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="72" LINES="11"]
+[?2004h]0;student@cs2324: ~/OSProjects/Project1[01;32mstudent@cs2324[00m:[01;34m~/OSProjects/Project1[00m$ ./[K[Kexit./doit wc foo.txt
+[?2004l   8  200 1377 foo.txt
+User CPU time used: 1 ms
+System CPU time used: 0 ms
+Elapsed wall-clock time: 4 ms
+Number of involuntary context switches: 2
+Number of voluntary context switches: 3
+Number of major page faults: 2
+Number of minor page faults: 104
+Maximum resident set size: 2228 KB
+==>^[[A    exit
+[?2004h]0;student@cs2324: ~/OSProjects/Project1[01;32mstudent@cs2324[00m:[01;34m~/OSProjects/Project1[00m$ ./doit
+[?2004l==>date
+Mon Sep  2 07:40:47 PM UTC 2024
+User CPU time used: 2 ms
+System CPU time used: 0 ms
+Elapsed wall-clock time: 5 ms
+Number of involuntary context switches: 2
+Number of voluntary context switches: 5
+Number of major page faults: 4
+Number of minor page faults: 105
+Maximum resident set size: 2172 KB
+==>cd dir
+==>ls
+inDirectory.txt
+User CPU time used: 4 ms
+System CPU time used: 0 ms
+Elapsed wall-clock time: 6 ms
+Number of involuntary context switches: 4
+Number of voluntary context switches: 10
+Number of major page faults: 7
+Number of minor page faults: 226
+Maximum resident set size: 2352 KB
+==>set prompt = myprompt:
+myprompt:exit
+[?2004h]0;student@cs2324: ~/OSProjects/Project1[01;32mstudent@cs2324[00m:[01;34m~/OSProjects/Project1[00m$ ./doit
+[?2004l==>sleep 5 &
+[14420] 14420
+==>jobs
+[14420] sleep
+==>ls
+dir  doit  doit_output.txt  foo.txt  main.cpp
+User CPU time used: 1 ms
+System CPU time used: 0 ms
+Elapsed wall-clock time: 2 ms
+Number of involuntary context switches: 2
+Number of voluntary context switches: 1
+Number of major page faults: 0
+Number of minor page faults: 125
+Maximum resident set size: 2356 KB
+==>cat foo.txt
+[14420] sleep Completed
+User CPU time used: 2 ms
+System CPU time used: 0 ms
+Elapsed wall-clock time: 9185 ms
+Number of involuntary context switches: 2
+Number of voluntary context switches: 3
+Number of major page faults: 0
+Number of minor page faults: 228
+Maximum resident set size: 2356 KB
+Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. 
+Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, 
+venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. 
+Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. 
+Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. 
+Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. 
+Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. 
+Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt. 
+Duis leo. Sed fringilla mauris sit amet nibh. Donec sodales sagittis magna. Sed consequat, leo eget bibendum sodales, augue velit cursus nunc, User CPU time used: 3 ms
+System CPU time used: 0 ms
+Elapsed wall-clock time: 0 ms
+Number of involuntary context switches: 2
+Number of voluntary context switches: 4
+Number of major page faults: 0
+Number of minor page faults: 329
+Maximum resident set size: 2356 KB
+==>exit
+[?2004h]0;student@cs2324: ~/OSProjects/Project1[01;32mstudent@cs2324[00m:[01;34m~/OSProjects/Project1[00m$ exit
+[?2004lexit
+
+Script done on 2024-09-02 19:41:26+00:00 [COMMAND_EXIT_CODE="0"]
