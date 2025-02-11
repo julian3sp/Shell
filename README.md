@@ -70,8 +70,8 @@ User CPU time used: 10 ms
 System CPU time used: 5 ms
 Elapsed wall-clock time: 20 ms
 ```
-## Author
-Julian Espinal
-julianrespinal24@gmail.com
-[https://github.com/julian3sp/]
+## Author  
+- **Julian Espinal**  
+- **julianrespinal24@gmail.com**  
+- **[https://github.com/julian3sp/]** 
 
